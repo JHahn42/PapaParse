@@ -4,7 +4,7 @@ v4.6.3
 https://github.com/mholt/PapaParse
 License: MIT
 */
-
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 // Polyfills
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray#Polyfill
 if (!Array.isArray)
